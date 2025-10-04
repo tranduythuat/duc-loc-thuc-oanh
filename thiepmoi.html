@@ -20,13 +20,15 @@
         type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"
         type="text/css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <!-- splidejs -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link href="./thiep/jquery.fancybox.min.css" rel="stylesheet" />
     <script src="./thiep/jquery.fancybox.min.js"></script>
@@ -179,112 +181,40 @@
                     </div>
                 </section>
             </div>
-            <!-- <div class="box-story">
-                <label for="" class="lb-story">our story</label>
-                <label for="" class="lb-storyy"><i>/Câu chuyện của chúng mình/</i></label>
-                <lb class="dot"><i class="fa-solid fa-diamond"></i></lb>
-            </div> -->
-            <!-- <div class="our-sotry">
-                <div class="story-1">
-                    <div class="icon">
-                        <img src="./thiep/images/g2781.png" alt="" />
-                    </div>
-                    <p>
-                        I choose you today everyday and in every lifetime. I'll choose you
-                        only you
-                    </p>
-                    <img src="./thiep/images/0031.jpeg" alt="" class="img-story" />
-                </div>
-                <div class="story-2">
-                    <div class="icon">
-                        <img src="./thiep/images/g2781.png" alt="" />
-                    </div>
-                    <p>
-                        The best day is nothing more than you are noisy. I am smiling, so
-                        warm to live my life
-                    </p>
-                    <img src="./thiep/images/0011.jpeg" alt="" class="img-story" />
-                </div>
-            </div> -->
-            <!-- <div class="box-title">
-                <p class="fade-down til1">
-                    WE SINCERELY HOPE TO HAVE YOU THERE ON THIS IMPORTANT DAY <br />
-                    TO WITNESS AND SHARE THIS HAPPINESS WITH US.
-                </p>
-                <lb class="fade-up til2">Thank you very much.</lb>
-                <lb class="dot2"><i class="fa-solid fa-diamond"></i></lb>
-            </div> -->
             <div class="box-form">
-                <form action="" name="loc-oanh">
+                <form action="#" name="oanh-loc">
                     <div class="feed-info">
-                        <img data-aos="fade-down" class="confirm-title" src="./thiep/images/core/confỉm-text.png" alt="">
-                        <!-- <label for="" class="lb-form">Attendance confirmation</label> -->
-                        <!-- <label for="" class="lb-formm"><i>/Xác nhận tham dự/</i></label> -->
-                        <!-- <label for="" class="in-fe">PLEASE CONFIRM YOUR ATTENDANCE WITH US <br />
-                            BY October 1, 2025</label> -->
-                        <label data-aos="fade-right" for="" class="in-fee"><i>KHÁCH MỜI VUI LÒNG XÁC NHẬN THAM DỰ TRƯỚC NGÀY <strong> 01.12 </strong> ĐỂ CHÚNG TÔI CÓ THỂ CHUẨN BỊ CHU ĐÁO NHẤT</i></label>
-
-                        
-                        <!-- <label for="" class="in-fe">Confirming attendance at the party. <br />
-                            This helps us to host you more thoughtfully and fully. <br />
-                            Thank you!!!</label>
-                        <label for="" class="in-fee"><i>/Hãy đến buổi tiệc và làm cho ngày vui của chúng mình trở nên
-                                <br />
-                                đặc biệt hơn bằng sự hiện diện của bạn nhé!/</i></label> -->
+                        <img class="confirm-title" src="./thiep/images/core/confirm-text.png" alt="">
+                        <label for="" class="in-fee"><i>KHÁCH MỜI VUI LÒNG XÁC NHẬN THAM DỰ TRƯỚC NGÀY <strong> 01.12 </strong> ĐỂ CHÚNG TÔI CÓ THỂ CHUẨN BỊ CHU ĐÁO NHẤT</i></label>
                     </div>
                     <div class="container-check">
                         <input class="box-feed" type="radio" value="YES" id="yes" name="CONFIRM" />
-                        <label data-aos="fade-left" class="check-box" for="yes">
+                        <label class="check-box" for="yes">
                             <h3 class="til-check">CÓ</h3>
-                            <!-- <h3 class="til-check"><i>/CÓ/</i></h3> -->
                         </label>
                         <input class="box-feed" type="radio" value="NO" id="no" name="CONFIRM" />
-                        <label data-aos="fade-right" class="check-box" for="no">
+                        <label class="check-box" for="no">
                             <h3 class="til-check">KHÔNG</h3>
-                            <!-- <h3 class="til-check"><i>/KHÔNG/</i></h3> -->
                         </label>
                     </div>
                     <div class="box-ten">
-                        <input data-aos="fade-up" required class="inp-ten" type="text" name="NAME" placeholder="Tên Khách Mời" />
+                        <input required class="inp-ten" type="text" name="NAME" placeholder="Tên Khách Mời" />
                     </div>
-                    <!-- <div class="container-check">
-                        <input class="box-feed" type="radio" value="NON-VEGETARIAN" id="non-veg" name="VEGETARIAN" />
-                        <label class="check-box2" for="non-veg">
-                            <h3 class="til-check">NON - VEGETARIAN</h3>
-                            <h3 class="til-check"><i>/KHÔNG ĂN CHAY</i></h3>
-                        </label>
-                        <input class="box-feed" type="radio" value="VEGETARIAN" id="veg" name="VEGETARIAN" />
-                        <label class="check-box2" for="veg">
-                            <h3 class="til-check">VEGETARIAN</h3>
-                            <h3 class="til-check"><i>/ĂN CHAY</i></h3>
-                        </label>
-                    </div> -->
                     <div class="guest-number">
-                        <p data-aos="fade-in">Số khách tham dự</p>
-                        <select data-aos="fade-right" name="GUEST" id="GUEST" required class="inp-ten" >
+                        <p>Số khách tham dự</p>
+                        <select name="GUEST" id="GUEST" required class="inp-ten" >
                             <option value="1">1</option>
                             <option value="2">2</option>
                         </select>
                     </div>
                     <div class="note">
-                        <label data-aos="fade-in" for="" class="in-fe">/Tiệc không phù hợp với trẻ em/</label>
+                        <label for="" class="in-fe">/Tiệc không phù hợp với trẻ em/</label>
                     </div>
-                    <!-- <div class="til">
-                        <label for="" class="title">NUMBER OF ATTENDANCE <br />
-                            <i>/Số khách tham dự/</i></label>
-                        <select name="GUEST" class="guest">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div> -->
                     <div class="box-ten">
-                        <textarea data-aos="fade-down" id="message" name="WISH" rows="4" cols="50" placeholder="GỬI LỜI NHẮN ĐẾN OANH VÀ LỘC"></textarea>
+                        <textarea id="message" name="WISH" rows="4" cols="50" placeholder="GỬI LỜI NHẮN ĐẾN OANH VÀ LỘC"></textarea>
                     </div>
                     <div class="wrapper">
-                        <button data-aos="flip-right" class="xacnhan" type="submit">XÁC NHẬN</button>
+                        <button class="xacnhan" type="submit">XÁC NHẬN</button>
                     </div>
                 </form>
             </div>
@@ -361,7 +291,7 @@
         };
     </script>
     <script>
-        const form = document.forms["loc-oanh"];
+        const form = document.forms["oanh-loc"];
         form.addEventListener("submit", (e) => {
             e.preventDefault(); // Ngừng việc gửi form mặc định
             alert(
@@ -395,57 +325,6 @@
                     console.error("Error:", err)
                     alert("OPPS! Đã xảy ra lỗi: " + error.message);
                 });
-        });
-    </script>
-    <script>
-        "use strict";
-        // Select all slides
-        const slides = document.querySelectorAll(".slide");
-
-        // loop through slides and set each slides translateX
-        slides.forEach((slide, indx) => {
-            slide.style.transform = `translateX(${indx * 100}%)`;
-        });
-
-        // select next slide button
-        const nextSlide = document.querySelector(".btn-next");
-
-        // current slide counter
-        let curSlide = 0;
-        // maximum number of slides
-        let maxSlide = slides.length - 1;
-
-        // add event listener and navigation functionality
-        nextSlide.addEventListener("click", function () {
-            // check if current slide is the last and reset current slide
-            if (curSlide === maxSlide) {
-                curSlide = 0;
-            } else {
-                curSlide++;
-            }
-
-            //   move slide by -100%
-            slides.forEach((slide, indx) => {
-                slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
-            });
-        });
-
-        // select next slide button
-        const prevSlide = document.querySelector(".btn-prev");
-
-        // add event listener and navigation functionality
-        prevSlide.addEventListener("click", function () {
-            // check if current slide is the first and reset current slide to last
-            if (curSlide === 0) {
-                curSlide = maxSlide;
-            } else {
-                curSlide--;
-            }
-
-            //   move slide by 100%
-            slides.forEach((slide, indx) => {
-                slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
-            });
         });
     </script>
     <script>
