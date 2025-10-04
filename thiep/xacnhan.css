@@ -270,7 +270,7 @@ body{
   background-image: linear-gradient(to top, rgb(255, 255, 255),  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/storehue/image/upload/v1759572096/wedding/oanh-loc/1_-_Cover_ys6zwz.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   display: flex;
   align-items: center;
   flex-direction: column;
