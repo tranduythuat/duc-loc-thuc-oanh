@@ -11,8 +11,8 @@
     <meta property="og:image:height" content="400" />
 
     <!-- Các thông tin khác cho Open Graph -->
-    <meta property="og:title" content="LỘC - OANH" />
-    <meta property="og:description" content="Đức Lộc - Thục Oanh" />
+    <meta property="og:title" content="19.12.2025" />
+    <meta property="og:description" content="Wedding of Lộc & Oanh" />
     <!-- <meta property="og:url" content="https://yenstudio.com.vn/hung-huyen/thiepmoi.html" /> -->
     <meta property="og:type" content="website" />
     <link rel="stylesheet" href="./thiep/xacnhan.css" />
@@ -69,26 +69,22 @@
                 <label for="" class="zoom-in time-date">and</label>
                 <label for="" class="zoom-in lb-time wife">Tran Ngo Thuc Oanh</label> -->
 
-                <label for="" class="zoom-in lb-time">16:00 | 19.12.2025 </label>
-                <!-- <label for="" class="zoom-in lb-timee"><i>/ 17h00 | 19.10.2025 /</i></label> -->
-                <!-- 
-                <label for="" class="lb5">Date & Time</label>
-                <label for="" class="lb55"><i>/Thời gian & Địa điểm/</i></label> -->
-
-                <label for="" class="fade-up lb4 location-name">AN LÂM RETREATS</label>
-                <label for="" class="fade-up church">SẢNH RIVER HOUSE - 78/5 Khu Phố Trung, P. Bình Hòa, TP Hồ Chí
-                    Minh</label>
-                <!-- <label for="" class="fade-up churchh"><i>/ K5 Nghi Tàm, 11 đường Xuân Diệu, phường Quảng An, quận Tây Hồ, Hà Nội /</i></label> -->
-
-                <img style="width: 300px;" data-aos="zoom-in-down" class="map-img" src="./thiep/images/core/map.png" alt="">
-
-                <div data-aos="flip-right" class="map">
-                    <a href="https://maps.app.goo.gl/hgV9dtgPFjZzFojn6"
-                        class="link-map">XEM BẢN ĐỒ </a>
-
-                    <!-- <i>/XEM BẢN ĐỒ/</i>-->
+                <div class="box-map" id="box-map">
+                    <label for="" class="zoom-in lb-time">16:00 | 19.12.2025 </label>
+                    <label for="" class="fade-up lb4 location-name">AN LÂM RETREATS</label>
+                    <label for="" class="fade-up church">SẢNH RIVER HOUSE - 78/5 Khu Phố Trung, P. Bình Hòa, TP Hồ Chí
+                        Minh</label>
+                    <img style="width: 300px;" data-aos="zoom-in-down" class="map-img" src="./thiep/images/core/map.png" alt="">
+                    <div data-aos="flip-right" class="map">
+                        <a target="_blank" href="https://maps.app.goo.gl/hgV9dtgPFjZzFojn6"
+                            class="link-map">XEM BẢN ĐỒ </a>
+                    </div>
                 </div>
-                <!-- <img src="./thiep/images/IMG_3713.jpg" alt="" class="img-center" /> -->
+                <script>
+                    document.getElementById("box-map").addEventListener("click", function() {
+                      window.open("https://maps.app.goo.gl/hgV9dtgPFjZzFojn6", "_blank"); // "_blank" mở tab mới
+                    });
+                </script>
             </div>
             <div class="image-style">
                 <img data-aos="fade-down" data-aos-delay="300" src="./thiep/images/core/style1.png" style="width: 108px; height: 106px;" alt="">
@@ -172,10 +168,16 @@
                                 <img src="https://res.cloudinary.com/storehue/image/upload/v1759571317/wedding/oanh-loc/4_mld09s.jpg" class="img-frame" alt="">
                             </li>
                             <li class="splide__slide">
-                                <img src="https://res.cloudinary.com/storehue/image/upload/v1759571320/wedding/oanh-loc/5_vsbusf.jpg" class="img-frame" alt="">
+                                <img src="https://res.cloudinary.com/storehue/image/upload/v1759572102/wedding/oanh-loc/7_l27ew3.jpg" class="img-frame" alt="">
                             </li>
                             <li class="splide__slide">
                                 <img src="https://res.cloudinary.com/storehue/image/upload/v1759571321/wedding/oanh-loc/6_dzeqee.jpg" class="img-frame" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://res.cloudinary.com/storehue/image/upload/v1759630999/wedding/oanh-loc/8_-_Pic_hwlczu.jpg" class="img-frame" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://res.cloudinary.com/storehue/image/upload/v1759631006/wedding/oanh-loc/9_-_Pic_q3maye.jpg" class="img-frame" alt="">
                             </li>
                         </ul>
                     </div>
@@ -379,7 +381,7 @@
             }
         }
     </script>
-    <script>
+    <!-- <script>
         const musicCircle = document.getElementById("musicCircle");
         const audio = document.getElementById("audio");
 
@@ -394,7 +396,7 @@
                 musicCircle.classList.remove("spin"); // Dừng xoay
             }
         });
-    </script>
+    </script> -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             new Splide('#main-carousel', {

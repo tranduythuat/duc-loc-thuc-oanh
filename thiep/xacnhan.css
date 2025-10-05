@@ -521,9 +521,20 @@ hr{
   margin-bottom:  50px;
 }
 
-.map{
+.box-map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box-map .map-img {
+  margin: 0 auto;
+}
+
+.map {
   font-family: var(--font-gotham);
-  width: 80%;
   /* height: 50px; */
   background-color: transparent;
   display: flex;
@@ -532,7 +543,7 @@ hr{
   border: 2px solid #34393D;
   border-radius: 20px;
   padding: 5px;
-  margin: 30px 0 70px;
+  margin: 30px 50px 70px;
 }
 
 .link-map{
